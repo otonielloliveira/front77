@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getToken, logout } from "./Auth";
 const baseURL = "http://api77.test/"
-const baseURLProd = ""
+const baseURLProd = "https://api77.yellowsistemas.com.br/"
 const api = axios.create({
   baseURL: (process.env.NODE_ENV === 'production' ? baseURLProd : baseURL)
 });

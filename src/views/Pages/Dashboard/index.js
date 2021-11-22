@@ -5,7 +5,7 @@ import InputMask from "react-input-mask";
 import Geocode from "react-geocode";
 import axios from 'axios';
 
-Geocode.setApiKey("AIzaSyBOOqSdPcvdW2RiVJ5bW3Q4Ie9eqYv7ZMI");
+Geocode.setApiKey("");
 
 Geocode.setLanguage("pt-BR");
 
